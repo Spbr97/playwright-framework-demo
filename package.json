@@ -1,0 +1,18 @@
+{
+  "name": "playwright-framework-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Playwright + TypeScript demo framework: Page Objects, fixtures, API checks, CI",
+  "scripts": {
+    "test": "playwright test",
+    "test:ui": "playwright test --project=ui",
+    "test:api": "playwright test --project=api",
+    "report": "playwright show-report",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.6.0"
+  }
+}
